@@ -16,4 +16,4 @@ const assertEqualArrays = function(actual, expected) {
 }
 
 assertEqualArrays(["Ariel", "Jenny"], ["Ariel", "Jenny", "Alykhan"]) /* should fail*/
-assertEqualArrays(["Ariel", "Jenny"], ["Ariel", "Jenny", "Alykhan"]) /* should pass*/
+assertEqualArrays(["Ariel", "Jenny"], ["Ariel", "Jenny"]) /* should pass*/
