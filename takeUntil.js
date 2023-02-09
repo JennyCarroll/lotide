@@ -22,16 +22,11 @@ const assertEqualArrays = function(actual, expected) {
 
 const takeUntil = function(array, callback) {
   let output = [];
-  let condition = false;
   for (let element of array) {
     if (callback(element)) {
-      condition = true
       break
     }
-    if (!condition) {
       output.push(element)
-    }
-    condition = false
   }
   return output
 }
