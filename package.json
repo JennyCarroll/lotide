@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@jenny_carroll/lotide",
   "version": "1.0.0",
-  "description": "lotide",
-  "main": "assertEqual.js",
+  "description": "a mini clone of the lodash library, created for school, probs don't use",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/JennyCarroll/lotide.git"
   },
-  "author": "JennyCarroll",
+  "author": "Jenny Carroll",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JennyCarroll/lotide/issues"
